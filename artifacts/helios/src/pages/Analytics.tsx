@@ -92,7 +92,7 @@ export default function Analytics() {
                     <div className="w-3 h-3 rounded-sm" style={{ background: entry.color }} />
                     <span className="font-data text-xs text-slate-400">{entry.flareClass}-Class</span>
                   </div>
-                  <span className="font-data text-xs text-slate-300">{entry.percentage.toFixed(1)}%</span>
+                  <span className="font-data text-xs text-slate-600">{entry.percentage.toFixed(1)}%</span>
                 </div>
               ))}
             </div>

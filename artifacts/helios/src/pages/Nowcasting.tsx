@@ -64,7 +64,7 @@ function ConfidenceMeter({ value, label, color }: { value: number; label: string
         <span>{label}</span>
         <span style={{ color }}>{(value * 100).toFixed(1)}%</span>
       </div>
-      <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
+      <div className="h-2 bg-slate-200 rounded-full overflow-hidden">
         <motion.div
           className="h-full rounded-full"
           style={{ background: color }}
@@ -158,8 +158,8 @@ export default function Nowcasting() {
             className="glass-panel rounded-xl p-5 border border-primary/20">
             <p className="font-data text-xs text-slate-500 tracking-widest mb-3">SOURCE INSTRUMENTS</p>
             {['SoLEXS', 'HEL1OS', 'Combined Fusion'].map((src, i) => (
-              <div key={src} className="flex items-center justify-between py-2 border-b border-slate-800 last:border-0">
-                <span className="font-data text-sm text-slate-300">{src}</span>
+              <div key={src} className="flex items-center justify-between py-2 border-b border-slate-200 last:border-0">
+                <span className="font-data text-sm text-slate-600">{src}</span>
                 <div className="flex items-center gap-2">
                   <motion.div className="w-2 h-2 rounded-full bg-green-500"
                     animate={{ opacity: [1, 0.3, 1] }} transition={{ duration: 1.5 + i * 0.3, repeat: Infinity }} />

@@ -95,10 +95,10 @@ export default function Explainability() {
         <p className="font-data text-xs text-slate-500 tracking-widest mb-4">DECISION EXPLANATION — CURRENT PREDICTION</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="space-y-3">
-            <p className="font-data text-sm text-slate-300 leading-relaxed">
+            <p className="font-data text-sm text-slate-600 leading-relaxed">
               The model's current prediction is primarily driven by the <span className="text-primary">Soft X-Ray Peak Flux</span> measurement, which accounts for 23.4% of the decision weight. Combined with the <span className="text-cyan-400">Hard X-Ray Derivative</span> (rising trend indicator), the model assigns elevated probability to an upcoming M-class event.
             </p>
-            <p className="font-data text-sm text-slate-400 leading-relaxed">
+            <p className="font-data text-sm text-slate-500 leading-relaxed">
               The <span className="text-purple-400">Soft/Hard Ratio</span> is within normal range (0.015), suggesting the current activity is thermal plasma rather than non-thermal energetic particles — consistent with early-phase flare development.
             </p>
           </div>
@@ -113,7 +113,7 @@ export default function Explainability() {
                       {(f.importance * 100).toFixed(1)}%
                     </span>
                   </div>
-                  <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
+                  <div className="h-1.5 bg-slate-200 rounded-full overflow-hidden">
                     <motion.div className="h-full rounded-full"
                       style={{ background: CATEGORY_COLORS[f.category] }}
                       initial={{ width: 0 }}

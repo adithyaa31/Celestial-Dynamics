@@ -42,7 +42,7 @@ export default function Datasets() {
         >
           <motion.div animate={{ y: dragging ? -8 : 0 }} transition={{ type: 'spring' }}>
             <Upload className="w-12 h-12 mx-auto text-primary/60 mb-4" />
-            <p className="font-heading text-lg text-slate-300 tracking-wider">DROP DATASET HERE</p>
+            <p className="font-heading text-lg text-slate-600 tracking-wider">DROP DATASET HERE</p>
             <p className="font-data text-sm text-slate-500 mt-2">Supports CSV · JSON · Excel · FITS</p>
             <p className="font-data text-xs text-slate-600 mt-4">Auto-detects SoLEXS · HEL1OS · GOES XRS formats</p>
           </motion.div>
@@ -95,7 +95,7 @@ export default function Datasets() {
                     <Database className="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <p className="font-data text-sm text-slate-200 group-hover:text-primary transition-colors">{ds.name}</p>
+                    <p className="font-data text-sm text-slate-700 group-hover:text-primary transition-colors">{ds.name}</p>
                     <p className="font-data text-xs text-slate-500 mt-0.5">{ds.type} · {ds.channelInfo}</p>
                   </div>
                 </div>

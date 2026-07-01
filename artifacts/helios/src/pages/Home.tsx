@@ -160,9 +160,9 @@ function StarField() {
     const stars: Star[] = Array.from({ length: 300 }, () => ({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
-      r: 0.3 + Math.random() * 1.5,
-      alpha: 0.3 + Math.random() * 0.7,
-      twinkleSpeed: 0.005 + Math.random() * 0.02,
+      r: 0.5 + Math.random() * 2,
+      alpha: 0.08 + Math.random() * 0.18,
+      twinkleSpeed: 0.004 + Math.random() * 0.015,
       phase: Math.random() * Math.PI * 2,
     }));
 
@@ -173,7 +173,7 @@ function StarField() {
       stars.forEach((s) => {
         const a = s.alpha * (0.5 + 0.5 * Math.sin(frame * s.twinkleSpeed + s.phase));
         ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(200,220,255,${a})`; ctx.fill();
+        ctx.fillStyle = `rgba(2,132,199,${a})`; ctx.fill();
       });
       raf = requestAnimationFrame(draw);
     };
@@ -212,8 +212,8 @@ function MeteorCanvas() {
         m.alpha -= 0.012;
         if (m.alpha <= 0 || m.y > canvas.height) { m.active = false; return; }
         const grd = ctx.createLinearGradient(m.x, m.y, m.x - m.len * 0.5, m.y - m.len);
-        grd.addColorStop(0, `rgba(255,255,255,${m.alpha})`);
-        grd.addColorStop(1, 'rgba(255,255,255,0)');
+        grd.addColorStop(0, `rgba(2,132,199,${m.alpha * 0.5})`);
+        grd.addColorStop(1, 'rgba(2,132,199,0)');
         ctx.beginPath(); ctx.moveTo(m.x, m.y); ctx.lineTo(m.x - m.len * 0.5, m.y - m.len);
         ctx.strokeStyle = grd; ctx.lineWidth = 1.5; ctx.stroke();
       });
@@ -313,11 +313,11 @@ export default function Home() {
           <h1 className="text-7xl md:text-9xl font-heading text-primary neon-text-cyan tracking-widest leading-none drop-shadow-[0_0_40px_rgba(0,229,255,0.5)]">
             HELIOS
           </h1>
-          <h2 className="text-xl md:text-2xl font-heading text-slate-300 tracking-[0.3em] mt-2">PROJECT</h2>
+          <h2 className="text-xl md:text-2xl font-heading text-slate-500 tracking-[0.3em] mt-2">PROJECT</h2>
         </motion.div>
 
         <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }}
-          className="font-data text-slate-400 tracking-wider mt-5 max-w-xl text-sm leading-relaxed px-4">
+          className="font-data text-slate-500 tracking-wider mt-5 max-w-xl text-sm leading-relaxed px-4">
           <TypingText text="Combining Soft X-Ray and Hard X-Ray Intelligence to Predict Solar Storms Before They Happen." delay={1200} />
         </motion.p>
 
@@ -331,7 +331,7 @@ export default function Home() {
           </Link>
           <Link href="/forecasting">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}
-              className="glass-panel px-8 py-3 rounded-full font-heading text-sm text-slate-300 cursor-pointer border border-slate-600/40 select-none">
+              className="glass-panel px-8 py-3 rounded-full font-heading text-sm text-slate-600 cursor-pointer border border-slate-300/60 select-none">
               EXPLORE AI FORECAST
             </motion.div>
           </Link>
@@ -365,7 +365,7 @@ export default function Home() {
 
       {/* Bottom bar */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 3 }}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-6 font-data text-xs text-slate-600">
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-6 font-data text-xs text-slate-400">
         <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />ADITYA-L1 UPLINK ACTIVE</span>
         <span>|</span><span>SoLEXS + HEL1OS ONLINE</span>
         <span>|</span><span>MODEL v2.4.1</span>

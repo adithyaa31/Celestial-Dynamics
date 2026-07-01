@@ -110,19 +110,19 @@ export default function Dashboard() {
           <h3 className="text-xl font-heading text-primary mb-4 border-b border-primary/20 pb-2">SYSTEM STATUS</h3>
           <div className="space-y-4 font-data">
             <div className="flex justify-between items-center">
-              <span className="text-slate-300">TELEMETRY LINK</span>
+              <span className="text-slate-600">TELEMETRY LINK</span>
               <span className="text-green-500">ONLINE</span>
             </div>
             <div className="flex justify-between items-center">
-              <span className="text-slate-300">AI PREDICTION CORE</span>
+              <span className="text-slate-600">AI PREDICTION CORE</span>
               <span className="text-green-500">NOMINAL</span>
             </div>
             <div className="flex justify-between items-center">
-              <span className="text-slate-300">DATABASE INTEGRITY</span>
+              <span className="text-slate-600">DATABASE INTEGRITY</span>
               <span className="text-green-500">SYNCED</span>
             </div>
             <div className="flex justify-between items-center">
-              <span className="text-slate-300">LAST UPDATE</span>
+              <span className="text-slate-600">LAST UPDATE</span>
               <span className="text-primary">{latest?.lastUpdated ? new Date(latest.lastUpdated).toLocaleTimeString() : 'WAITING...'}</span>
             </div>
           </div>

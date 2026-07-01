@@ -6,7 +6,6 @@ export function SpaceBackground() {
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
@@ -15,36 +14,40 @@ export function SpaceBackground() {
     canvas.width = width;
     canvas.height = height;
 
-    const stars = Array.from({ length: 200 }).map(() => ({
+    // Soft floating orbs for light theme
+    const orbs = Array.from({ length: 60 }, () => ({
       x: Math.random() * width,
       y: Math.random() * height,
-      size: Math.random() * 1.5 + 0.5,
-      speed: Math.random() * 0.2 + 0.05,
-      opacity: Math.random(),
-      fadeDir: Math.random() > 0.5 ? 1 : -1
+      r: 1.5 + Math.random() * 3,
+      vx: (Math.random() - 0.5) * 0.25,
+      vy: (Math.random() - 0.5) * 0.25,
+      alpha: 0.06 + Math.random() * 0.14,
+      fadeDir: Math.random() > 0.5 ? 1 : -1,
+      hue: Math.random() > 0.6 ? 38 : 200, // amber or blue
     }));
 
     let animationFrameId: number;
 
     const render = () => {
       ctx.clearRect(0, 0, width, height);
-      
-      stars.forEach(star => {
-        star.y += star.speed;
-        if (star.y > height) star.y = 0;
-        
-        star.opacity += 0.01 * star.fadeDir;
-        if (star.opacity > 1) {
-          star.opacity = 1;
-          star.fadeDir = -1;
-        } else if (star.opacity < 0.2) {
-          star.opacity = 0.2;
-          star.fadeDir = 1;
-        }
 
-        ctx.fillStyle = `rgba(255, 255, 255, ${star.opacity})`;
+      orbs.forEach(orb => {
+        orb.x += orb.vx;
+        orb.y += orb.vy;
+        if (orb.x < 0) orb.x = width;
+        if (orb.x > width) orb.x = 0;
+        if (orb.y < 0) orb.y = height;
+        if (orb.y > height) orb.y = 0;
+
+        orb.alpha += 0.004 * orb.fadeDir;
+        if (orb.alpha > 0.22) { orb.alpha = 0.22; orb.fadeDir = -1; }
+        if (orb.alpha < 0.04) { orb.alpha = 0.04; orb.fadeDir = 1; }
+
         ctx.beginPath();
-        ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
+        ctx.arc(orb.x, orb.y, orb.r, 0, Math.PI * 2);
+        ctx.fillStyle = orb.hue === 38
+          ? `rgba(245,158,11,${orb.alpha})`
+          : `rgba(2,132,199,${orb.alpha})`;
         ctx.fill();
       });
 
@@ -69,8 +72,8 @@ export function SpaceBackground() {
   }, []);
 
   return (
-    <canvas 
-      ref={canvasRef} 
+    <canvas
+      ref={canvasRef}
       className="fixed inset-0 pointer-events-none z-[-1]"
     />
   );

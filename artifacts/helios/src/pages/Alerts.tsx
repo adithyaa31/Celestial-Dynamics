@@ -51,7 +51,7 @@ function AlertCard({ alert, index }: { alert: any; index: number }) {
               </motion.span>
             )}
           </div>
-          <p className="font-data text-sm text-slate-200 mt-1">{alert.title}</p>
+          <p className="font-data text-sm text-slate-700 mt-1">{alert.title}</p>
           <p className="font-data text-xs text-slate-500 mt-1 leading-relaxed">{alert.description}</p>
           <div className="flex items-center gap-4 mt-2">
             <span className="font-data text-xs text-slate-600">{new Date(alert.timestamp).toUTCString().slice(0, 25)} UTC</span>
