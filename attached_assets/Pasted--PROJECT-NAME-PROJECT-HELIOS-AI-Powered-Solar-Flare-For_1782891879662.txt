@@ -1,0 +1,822 @@
+# PROJECT NAME
+
+PROJECT HELIOS
+
+AI Powered Solar Flare Forecasting & Nowcasting Platform
+
+========================================================
+
+YOUR ROLE
+
+You are a Senior Full Stack Engineer, AI Engineer, Data Scientist, Machine Learning Engineer, UI/UX Designer, Three.js Expert, React Expert, Python Expert, Scientific Visualization Expert and Product Designer.
+
+Build a COMPLETE production-ready application.
+
+Do NOT generate placeholder pages.
+
+Everything should be modular.
+
+Everything should look premium.
+
+Everything should feel like software developed by NASA, ISRO, ESA or SpaceX.
+
+========================================================
+
+PROJECT GOAL
+
+Build an AI platform capable of
+
+• Reading Aditya-L1 SoLEXS datasets
+• Reading HEL1OS datasets
+• Combining both datasets
+• Cleaning data
+• Extracting scientific features
+• Detecting solar flares
+• Forecasting future solar flares
+• Visualizing X-ray activity
+• Creating a flare event catalogue
+• Displaying alerts
+• Showing explainable AI
+• Looking like a futuristic Mission Control Dashboard
+
+The software should feel like a real scientific application.
+
+========================================================
+
+DESIGN PHILOSOPHY
+
+The design must immediately impress hackathon judges.
+
+Within 10 seconds of opening the application, users should think
+
+"This looks like real space mission software."
+
+No ordinary dashboards.
+
+No generic admin template.
+
+No bootstrap style.
+
+Everything should feel cinematic.
+
+========================================================
+
+DESIGN THEME
+
+Create a futuristic space environment.
+
+Background should never feel empty.
+
+Use
+
+Deep Black Space
+
+Dark Blue
+
+Electric Blue
+
+Neon Cyan
+
+Purple Glow
+
+Glassmorphism
+
+Holographic Panels
+
+Animated Grid
+
+Moving Stars
+
+Nebula Clouds
+
+Space Dust
+
+Galaxy Particles
+
+Soft Bloom
+
+Light Rays
+
+Animated Solar Plasma
+
+Floating Data Panels
+
+Hover Glow
+
+Transparent Cards
+
+Animated Borders
+
+Smooth Shadows
+
+Everything should have premium micro interactions.
+
+========================================================
+
+BACKGROUND ANIMATION
+
+The background should constantly move.
+
+Include
+
+Animated Stars
+
+Twinkling Stars
+
+Nebula Clouds
+
+Slow Galaxy Rotation
+
+Digital Grid
+
+Floating Particles
+
+Light Trails
+
+Satellite Orbit Animation
+
+Small Rotating Earth
+
+Meteor Passing Occasionally
+
+Moving Solar Wind
+
+Soft Glow
+
+Mouse Parallax
+
+Cursor Glow
+
+Everything should remain lightweight and optimized.
+
+========================================================
+
+LANDING PAGE
+
+Create an immersive landing page.
+
+Hero Section
+
+Large animated Sun
+
+Solar corona
+
+Solar plasma animation
+
+Coronal loops
+
+Dynamic light
+
+Rotating Sun
+
+Headline
+
+AI Powered Solar Flare Forecasting using Aditya-L1
+
+Subtitle
+
+Combining Soft X-Ray and Hard X-Ray Intelligence to Predict Solar Storms Before They Happen.
+
+Buttons
+
+Launch Mission Control
+
+Explore AI
+
+Learn About Aditya-L1
+
+Below Hero
+
+Animated statistics
+
+Prediction Accuracy
+
+Detected Events
+
+Current Solar Activity
+
+Average Lead Time
+
+System Status
+
+Scrolling should reveal sections with animations.
+
+========================================================
+
+PAGES
+
+Create the following pages.
+
+1.
+
+Mission Control Dashboard
+
+2.
+
+Live Solar Monitoring
+
+3.
+
+Forecasting
+
+4.
+
+Nowcasting
+
+5.
+
+Analytics
+
+6.
+
+Dataset Explorer
+
+7.
+
+AI Explainability
+
+8.
+
+Alert Center
+
+9.
+
+Model Performance
+
+10.
+
+Mission Documentation
+
+========================================================
+
+MISSION CONTROL DASHBOARD
+
+This page is the main dashboard.
+
+Display
+
+Soft X-Ray Graph
+
+Hard X-Ray Graph
+
+Combined Graph
+
+Solar Activity Gauge
+
+Current Flare Class
+
+Current Probability
+
+Risk Meter
+
+Prediction Timeline
+
+Latest Alerts
+
+System Health
+
+Model Status
+
+Database Status
+
+Every graph should animate smoothly.
+
+Hovering should show values.
+
+Zoom should be supported.
+
+========================================================
+
+LIVE SOLAR MONITORING
+
+Show
+
+Soft X-Ray curve
+
+Hard X-Ray curve
+
+Combined curve
+
+Peak detection
+
+Threshold markers
+
+Current flare markers
+
+Moving timeline
+
+Allow
+
+Zoom
+
+Pan
+
+Filtering
+
+Different time windows
+
+========================================================
+
+FORECASTING PAGE
+
+Display AI predictions.
+
+Predict
+
+5 minutes
+
+15 minutes
+
+30 minutes
+
+60 minutes
+
+Each prediction card shows
+
+Probability
+
+Confidence
+
+Expected flare class
+
+Estimated peak time
+
+Lead time
+
+Use animated progress rings.
+
+========================================================
+
+NOWCASTING PAGE
+
+Detect current flare.
+
+Display
+
+Detected flare
+
+Class
+
+Confidence
+
+Peak intensity
+
+Current energy
+
+Source
+
+SoLEXS
+
+HEL1OS
+
+Combined
+
+========================================================
+
+DATASET EXPLORER
+
+Allow upload of
+
+CSV
+
+JSON
+
+Excel
+
+If available later
+
+FITS
+
+Automatically recognize file format.
+
+Preview dataset.
+
+Detect columns.
+
+Plot instantly.
+
+If multiple datasets exist
+
+Merge them.
+
+Show missing values.
+
+Clean automatically.
+
+========================================================
+
+DATA IMPORT
+
+Support importing the datasets the user already has.
+
+Design the application so additional datasets can be added later.
+
+If internet access is available and an official public endpoint exists, support downloading new public datasets.
+
+If ISRO requires authentication or does not provide an API, clearly notify the user that manual upload is required.
+
+Never assume unrestricted access.
+
+========================================================
+
+DATA CLEANING
+
+Automatically
+
+Remove duplicates
+
+Handle missing values
+
+Sort timestamps
+
+Normalize timestamps
+
+Normalize values
+
+Detect anomalies
+
+Store cleaned dataset
+
+========================================================
+
+FEATURE ENGINEERING
+
+Generate
+
+Moving Average
+
+Moving Standard Deviation
+
+Slope
+
+Gradient
+
+Rolling Mean
+
+Rolling Max
+
+Rolling Min
+
+Variance
+
+Median
+
+FFT
+
+Wavelet Features
+
+Soft Hard Ratio
+
+Energy Ratio
+
+Peak Width
+
+Peak Height
+
+Peak Interval
+
+Rate of Change
+
+Signal Derivative
+
+Signal Integral
+
+Window Features
+
+Lag Features
+
+========================================================
+
+AI PIPELINE
+
+Pipeline
+
+Load Dataset
+
+↓
+
+Cleaning
+
+↓
+
+Feature Engineering
+
+↓
+
+Training
+
+↓
+
+Validation
+
+↓
+
+Prediction
+
+↓
+
+Alert Engine
+
+↓
+
+Visualization
+
+========================================================
+
+MODELS
+
+Implement
+
+Random Forest
+
+Gradient Boosting
+
+XGBoost
+
+LSTM
+
+GRU
+
+Compare performance.
+
+Choose best model automatically.
+
+Store metrics.
+
+========================================================
+
+ALERT ENGINE
+
+Generate alerts.
+
+Levels
+
+GREEN
+
+YELLOW
+
+ORANGE
+
+RED
+
+Display
+
+Confidence
+
+Countdown
+
+Predicted flare
+
+Estimated impact
+
+Alert history
+
+========================================================
+
+ANALYTICS
+
+Daily activity
+
+Weekly activity
+
+Monthly activity
+
+Peak distribution
+
+Heatmap
+
+Scatter plots
+
+Pie charts
+
+Trend charts
+
+Animated charts.
+
+========================================================
+
+MODEL PERFORMANCE
+
+Display
+
+Accuracy
+
+Precision
+
+Recall
+
+F1 Score
+
+ROC Curve
+
+Confusion Matrix
+
+Training History
+
+Loss Curve
+
+========================================================
+
+AI EXPLAINABILITY
+
+Explain every prediction.
+
+Use
+
+Feature Importance
+
+SHAP Values
+
+Confidence Score
+
+Prediction Reason
+
+========================================================
+
+DATABASE
+
+Use SQLite initially.
+
+Store
+
+Uploaded datasets
+
+Predictions
+
+Alerts
+
+Training logs
+
+Model versions
+
+User settings
+
+========================================================
+
+BACKEND
+
+Python
+
+FastAPI
+
+Pandas
+
+NumPy
+
+SciPy
+
+Scikit-learn
+
+TensorFlow
+
+XGBoost
+
+Joblib
+
+========================================================
+
+FRONTEND
+
+React
+
+Vite
+
+Tailwind CSS
+
+Framer Motion
+
+Three.js
+
+React Three Fiber
+
+React Icons
+
+Recharts
+
+GSAP
+
+========================================================
+
+ANIMATIONS
+
+Every page should include animations.
+
+Examples
+
+Fade
+
+Scale
+
+Glow
+
+Pulse
+
+Orbit
+
+Rotation
+
+Particle movement
+
+Light sweep
+
+Floating cards
+
+Hover effects
+
+Animated counters
+
+Typing effects
+
+Graph animations
+
+Smooth page transitions
+
+========================================================
+
+RESPONSIVE
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+========================================================
+
+CODE QUALITY
+
+Use clean architecture.
+
+Separate components.
+
+Separate APIs.
+
+Separate ML pipeline.
+
+Separate utilities.
+
+Reusable hooks.
+
+Type safety where appropriate.
+
+Readable comments.
+
+No duplicate code.
+
+========================================================
+
+PROJECT STRUCTURE
+
+frontend
+
+components
+
+pages
+
+layouts
+
+animations
+
+hooks
+
+charts
+
+services
+
+assets
+
+backend
+
+api
+
+models
+
+training
+
+preprocessing
+
+utils
+
+database
+
+datasets
+
+saved_models
+
+========================================================
+
+FINAL GOAL
+
+The final application should feel like a premium AI platform built for a national space agency.
+
+Judges should immediately understand:
+
+• The scientific problem
+• The AI workflow
+• The live monitoring
+• The forecasting capability
+• The explainability of the predictions
+
+The application should prioritize clarity, reliability, visual quality, and modular architecture over flashy but non-functional features.

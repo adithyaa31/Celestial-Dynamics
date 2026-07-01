@@ -1,0 +1,522 @@
+You are a senior Full Stack AI Engineer, UI/UX Designer, Space Visualization Expert, and Machine Learning Engineer.
+
+Build a COMPLETE futuristic web application named
+
+PROJECT HELIOS
+AI Powered Solar Flare Forecasting & Nowcasting Platform
+
+The project should look like an ISRO + NASA Mission Control combined with a futuristic holographic cyberpunk interface.
+
+=========================================
+GOAL
+=========================================
+
+Create a production-quality AI dashboard capable of
+
+• Reading Aditya-L1 SoLEXS datasets
+• Reading HEL1OS datasets
+• Merging both datasets
+• Detecting Solar Flares (Nowcasting)
+• Predicting Solar Flares (Forecasting)
+• Displaying Live Analytics
+• Showing Interactive Visualizations
+• Triggering AI Alerts
+
+The application should feel like software used inside a real space agency.
+
+=========================================
+DESIGN THEME
+=========================================
+
+Dark futuristic space interface
+
+Main colors
+
+Deep Space Black
+Midnight Blue
+Neon Cyan
+Electric Blue
+Purple Glow
+White Text
+
+Glassmorphism
+
+Holographic Panels
+
+Floating Cards
+
+Animated Gradients
+
+Animated Grid Background
+
+Digital Space Background
+
+Nebula Effects
+
+Particles
+
+Glowing Borders
+
+Animated Solar Corona
+
+Moving Stars
+
+Small Satellites Orbiting
+
+Floating Asteroids
+
+Planet Animations
+
+Parallax Effects
+
+Animated Background
+
+No boring layouts.
+
+Every page should have smooth animations.
+
+=========================================
+LANDING PAGE
+=========================================
+
+Large 3D animated Sun
+
+Moving Solar Plasma
+
+Animated Coronal Loops
+
+Particle Explosion
+
+Headline
+
+AI Powered Solar Flare Forecasting using Aditya-L1
+
+Subtitle
+
+Combining Soft X-Ray and Hard X-Ray Intelligence for Early Space Weather Prediction
+
+Buttons
+
+Launch Dashboard
+
+Explore AI
+
+About Project
+
+Animated statistics
+
+Current Solar Activity
+
+Detected Flares
+
+Prediction Accuracy
+
+Lead Time
+
+=========================================
+BACKGROUND
+=========================================
+
+Animated stars
+
+Nebula
+
+Galaxy
+
+Digital Grid
+
+Glowing particles
+
+Moving lines
+
+Space dust
+
+Slow moving planets
+
+Meteor animations
+
+Everything should feel alive.
+
+=========================================
+PAGES
+=========================================
+
+1 Dashboard
+
+Mission Control Interface
+
+2 Live Solar Monitoring
+
+3 AI Forecasting
+
+4 AI Nowcasting
+
+5 Analytics
+
+6 Dataset Explorer
+
+7 AI Explainability
+
+8 Alert Center
+
+9 Model Performance
+
+10 About Mission
+
+=========================================
+DASHBOARD
+=========================================
+
+Display
+
+Live Soft X-Ray graph
+
+Live Hard X-Ray graph
+
+Combined Graph
+
+Current Flare Class
+
+Probability Meter
+
+Prediction Timeline
+
+Latest Alerts
+
+Risk Indicator
+
+Space Weather Status
+
+Animated Gauge
+
+Timeline
+
+Interactive Charts
+
+=========================================
+DATA HANDLING
+=========================================
+
+Allow uploading
+
+CSV
+
+JSON
+
+Excel
+
+Automatically detect
+
+SoLEXS
+
+HEL1OS
+
+Merge datasets
+
+Clean data
+
+Normalize
+
+Extract features
+
+Train model
+
+Generate predictions
+
+If internet access is available and an official public endpoint exists, support importing additional datasets from the official ISRO source. If automatic download is not possible because authentication or an API is unavailable, clearly indicate that manual upload is required instead of failing.
+
+=========================================
+AI MODULE
+=========================================
+
+Create
+
+Feature Engineering
+
+Rolling Mean
+
+Rolling Std
+
+Moving Average
+
+Derivative
+
+Slope
+
+Energy Ratio
+
+Soft Hard Ratio
+
+Peak Detection
+
+Wavelet Features
+
+FFT Features
+
+Time Window Features
+
+Train
+
+Random Forest
+
+XGBoost
+
+LSTM
+
+GRU
+
+Compare models
+
+Automatically select best model
+
+=========================================
+NOWCASTING
+=========================================
+
+Detect
+
+A Class
+
+B Class
+
+C Class
+
+M Class
+
+X Class
+
+Display
+
+Confidence
+
+Source
+
+Time
+
+Peak
+
+Intensity
+
+=========================================
+FORECASTING
+=========================================
+
+Predict
+
+5 Minutes
+
+15 Minutes
+
+30 Minutes
+
+60 Minutes
+
+Display probability
+
+Estimated Flare Class
+
+Expected Peak
+
+Lead Time
+
+=========================================
+ALERT ENGINE
+=========================================
+
+Beautiful animated popup
+
+RED ALERT
+
+Solar Flare Expected
+
+Countdown
+
+Confidence
+
+Risk
+
+Alert History
+
+=========================================
+ANALYTICS
+=========================================
+
+Daily
+
+Weekly
+
+Monthly
+
+Heatmaps
+
+Pie Charts
+
+Bar Charts
+
+Scatter Charts
+
+Trend Lines
+
+Everything interactive.
+
+=========================================
+AI EXPLAINABILITY
+=========================================
+
+Show
+
+Feature Importance
+
+SHAP Values
+
+Decision Graph
+
+Confidence
+
+Reason behind prediction
+
+=========================================
+DATABASE
+=========================================
+
+SQLite
+
+Store
+
+Predictions
+
+Alerts
+
+Events
+
+Training Results
+
+Model Accuracy
+
+=========================================
+BACKEND
+=========================================
+
+Python
+
+FastAPI
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+TensorFlow
+
+XGBoost
+
+=========================================
+FRONTEND
+=========================================
+
+React
+
+Vite
+
+Tailwind CSS
+
+Framer Motion
+
+Three.js
+
+React Three Fiber
+
+React Icons
+
+Recharts
+
+GSAP
+
+=========================================
+SPECIAL VISUAL EFFECTS
+=========================================
+
+Animated 3D Sun
+
+Rotating Earth
+
+Orbit Animation
+
+Solar Wind
+
+Particle Explosion
+
+Glowing Graphs
+
+Holographic Cards
+
+Animated Loader
+
+Digital Rain
+
+Cyber Lines
+
+Light Trails
+
+Bloom Effects
+
+Smooth Page Transition
+
+Mouse Glow
+
+Cursor Trail
+
+=========================================
+RESPONSIVE
+=========================================
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+=========================================
+PROJECT STRUCTURE
+=========================================
+
+frontend
+
+backend
+
+api
+
+models
+
+training
+
+preprocessing
+
+datasets
+
+components
+
+animations
+
+charts
+
+alerts
+
+assets
+
+=========================================
+IMPORTANT
+=========================================
+
+The UI should be at the level of Apple, SpaceX, and NASA.
+
+Every animation must be smooth.
+
+The dashboard should impress hackathon judges within the first 15 seconds.
+
+Write clean, modular, production-quality code with comments.
+
+Build the project incrementally, ensuring every feature works before moving to the next.

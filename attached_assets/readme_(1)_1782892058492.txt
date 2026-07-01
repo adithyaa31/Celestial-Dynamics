@@ -1,0 +1,54 @@
+DATA SOURCE
+
+Source: NOAA GOES XRS Primary JSON
+
+Purpose:
+Solar X-ray flux data for SHXCI Prototype 1.
+
+Required Fields:
+- time_tag
+- flux
+- energy
+
+Channels:
+- 0.05-0.4 nm
+- 0.1-0.8 nm
+
+REQUIRED JSON FIELDS
+
+1. time_tag
+   Timestamp of observation
+
+2. flux
+   X-ray flux value
+
+3. energy
+   Identifies X-ray channel
+
+Ignore:
+- observed_flux
+- electron_correction
+- electron_contamination
+- satellite
+
+SHXCI PROTOTYPE 1
+
+Dataset:
+GOES XRS Primary JSON
+
+Objective:
+Study the relationship between two X-ray channels through correlation analysis.
+
+Process:
+
+1. Load JSON file.
+2. Separate records by energy channel.
+3. Match timestamps.
+4. Create synchronized dataset.
+5. Calculate correlation.
+6. Calculate rolling correlation.
+7. Plot graph.
+
+Expected Output:
+- Correlation coefficient
+- Correlation vs Time graph

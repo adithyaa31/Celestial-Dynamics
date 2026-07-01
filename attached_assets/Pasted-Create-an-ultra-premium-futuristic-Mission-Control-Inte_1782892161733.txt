@@ -1,0 +1,361 @@
+Create an ultra-premium futuristic Mission Control Interface for an AI-powered Solar Flare Forecasting platform called PROJECT HELIOS.
+
+The interface should NOT look like a normal admin dashboard.
+
+The entire experience should feel like software running inside ISRO, NASA, ESA, SpaceX or Tony Stark's JARVIS.
+
+======================================================
+OVERALL DESIGN STYLE
+======================================================
+
+Theme:
+
+Futuristic Space Intelligence
+
+AI Control Center
+
+Scientific Visualization
+
+Cyberpunk but elegant
+
+Minimal yet cinematic
+
+Luxury technology interface
+
+Everything should have depth, motion, glow and realism.
+
+Avoid generic dashboard templates.
+
+======================================================
+COLOR PALETTE
+======================================================
+
+Primary Background
+
+#020617
+#030712
+#07111F
+#0A192F
+
+Accent Colors
+
+Neon Cyan
+#00E5FF
+
+Electric Blue
+#009DFF
+
+Deep Purple
+#6D28D9
+
+Aurora Blue
+#38BDF8
+
+Solar Orange
+#FF8C00
+
+Danger Red
+#EF4444
+
+Success Green
+#22C55E
+
+White Text
+
+#F8FAFC
+
+Glass Cards
+
+rgba(255,255,255,0.05)
+
+======================================================
+BACKGROUND
+======================================================
+
+The background should constantly move.
+
+Include
+
+Animated Galaxy
+
+Moving Nebula
+
+Twinkling Stars
+
+Floating Space Dust
+
+Digital Grid
+
+Constellation Lines
+
+Glowing Particles
+
+Solar Plasma
+
+Orbit Rings
+
+Rotating Earth
+
+Moving Satellites
+
+Tiny Asteroids
+
+Meteor Shower
+
+Aurora Glow
+
+Blue Energy Waves
+
+The background should feel alive.
+
+======================================================
+MAIN HERO
+======================================================
+
+Centerpiece
+
+A realistic animated 3D Sun.
+
+The Sun should slowly rotate.
+
+Solar plasma should move continuously.
+
+Coronal loops should animate.
+
+Solar flares should occasionally erupt.
+
+The Sun should emit a glowing orange corona.
+
+Around it should be orbiting digital rings representing AI analysis.
+
+Particles should flow outward.
+
+======================================================
+ANIMATIONS
+======================================================
+
+Everything should animate smoothly.
+
+Use
+
+Framer Motion
+
+GSAP
+
+Three.js
+
+React Three Fiber
+
+Animations
+
+Fade In
+
+Slide Up
+
+Glow Pulse
+
+Floating Cards
+
+Glass Reflection
+
+Orbit Rotation
+
+Data Streams
+
+Light Sweep
+
+Particle Explosion
+
+Magnetic Field Waves
+
+Solar Plasma Motion
+
+Hover Glow
+
+Scale Animation
+
+Animated Numbers
+
+Typing Text
+
+Smooth Page Transitions
+
+Cursor Glow
+
+Parallax Effect
+
+Background Motion
+
+======================================================
+PANELS
+======================================================
+
+Every card should look holographic.
+
+Glassmorphism
+
+Blur
+
+Transparent
+
+Neon Border
+
+Rounded Corners
+
+Soft Shadow
+
+Blue Glow
+
+Animated Border
+
+Hover Elevation
+
+Floating Effect
+
+======================================================
+BUTTONS
+======================================================
+
+Buttons should glow.
+
+Hover
+
+Expand
+
+Ripple
+
+Gradient Shift
+
+Light Sweep
+
+Soft Shadow
+
+Click Bounce
+
+======================================================
+GRAPHS
+======================================================
+
+Charts should animate while loading.
+
+Soft X-ray
+
+Hard X-ray
+
+Combined Signal
+
+Heatmaps
+
+Timeline
+
+Area Charts
+
+Interactive Tooltips
+
+Zoom
+
+Pan
+
+Glowing Lines
+
+Animated Drawing
+
+======================================================
+SPECIAL EFFECTS
+======================================================
+
+Animated Digital Grid
+
+Mouse Glow
+
+Particle Cursor
+
+Bloom Effect
+
+Lens Flare
+
+Volumetric Light
+
+Light Rays
+
+Background Blur
+
+Floating Data
+
+AI Scan Lines
+
+Radar Sweep
+
+Energy Pulse
+
+======================================================
+LOADING SCREEN
+======================================================
+
+Display
+
+PROJECT HELIOS
+
+Animated Sun
+
+Loading Ring
+
+AI Initializing...
+
+Connecting to Aditya-L1...
+
+Preparing Forecast Model...
+
+Calibrating Sensors...
+
+Loading Neural Networks...
+
+======================================================
+TYPOGRAPHY
+======================================================
+
+Modern Tech Font
+
+Space Grotesk
+
+Orbitron
+
+Inter
+
+Large Bold Headlines
+
+Minimal Paragraphs
+
+Professional Scientific Feel
+
+======================================================
+SOUND (OPTIONAL)
+======================================================
+
+Very subtle futuristic UI sounds
+
+Soft Beeps
+
+Radar Ping
+
+Notification Chime
+
+AI Voice Alert
+
+======================================================
+OVERALL EXPERIENCE
+======================================================
+
+The application should feel like:
+
+• NASA Mission Control
+• SpaceX Launch Dashboard
+• Iron Man JARVIS Interface
+• Apple Vision Pro UI
+• Figma's premium design quality
+
+The first impression should immediately make hackathon judges say:
+
+"This looks like a real space mission software."
+
+Every interaction should feel smooth, premium, modern, and highly polished.
