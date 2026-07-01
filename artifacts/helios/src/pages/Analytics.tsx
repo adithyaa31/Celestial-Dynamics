@@ -14,7 +14,7 @@ const GLASS_TOOLTIP = {
 
 export default function Analytics() {
   const [period, setPeriod] = useState(30);
-  const { data: daily } = useGetDailyAnalytics({ params: { days: period } });
+  const { data: daily } = useGetDailyAnalytics({ days: period });
   const { data: distribution } = useGetClassDistribution();
   const { data: heatmap } = useGetHeatmapData();
 

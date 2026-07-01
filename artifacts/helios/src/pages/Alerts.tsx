@@ -77,8 +77,8 @@ function AlertCard({ alert, index }: { alert: any; index: number }) {
 }
 
 export default function Alerts() {
-  const { data: allAlerts } = useGetAlerts({ params: { limit: 20 }, query: { refetchInterval: 15000 } });
-  const { data: activeAlerts } = useGetActiveAlerts({ query: { refetchInterval: 15000 } });
+  const { data: allAlerts } = useGetAlerts({ limit: 20 }, { query: { refetchInterval: 15000, queryKey: ['/api/alerts', { limit: 20 }] } });
+  const { data: activeAlerts } = useGetActiveAlerts({ query: { refetchInterval: 15000, queryKey: ['/api/alerts/active'] } });
 
   const active = activeAlerts ?? [];
   const history = (allAlerts ?? []).filter((a) => !a.isActive);

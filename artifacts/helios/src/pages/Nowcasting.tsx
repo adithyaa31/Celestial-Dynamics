@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { motion, animate } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useGetNowcast, useGetSolarEvents, useGetLatestSolar } from '@workspace/api-client-react';
 import { Radio, Zap, AlertTriangle, CheckCircle } from 'lucide-react';
 
@@ -29,7 +29,6 @@ function RadarScan() {
         ctx.lineTo(cx + Math.cos(a) * r, cy + Math.sin(a) * r);
         ctx.stroke();
       }
-      const gradient = ctx.createConicalGradient ? null : null;
       ctx.save();
       ctx.translate(cx, cy);
       ctx.rotate(angle);
@@ -89,9 +88,9 @@ const CLASS_DESC: Record<string, string> = {
 };
 
 export default function Nowcasting() {
-  const { data: nowcast, isLoading } = useGetNowcast({ query: { refetchInterval: 15000 } });
-  const { data: events } = useGetSolarEvents({ params: { limit: 8 } });
-  const { data: latest } = useGetLatestSolar({ query: { refetchInterval: 15000 } });
+  const { data: nowcast, isLoading } = useGetNowcast({ query: { refetchInterval: 15000, queryKey: ['/api/solar/nowcast'] } });
+  const { data: events } = useGetSolarEvents({ limit: 8 });
+  const { data: latest } = useGetLatestSolar({ query: { refetchInterval: 15000, queryKey: ['/api/solar/latest'] } });
 
   const cls = nowcast?.detectedClass ?? 'A';
   const clsColor = CLASS_COLORS[cls] ?? '#38BDF8';

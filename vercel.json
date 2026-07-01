@@ -1,0 +1,5 @@
+{
+  "buildCommand": "pnpm install --frozen-lockfile && pnpm --filter @workspace/helios run build",
+  "outputDirectory": "artifacts/helios/dist/public",
+  "framework": "vite"
+}

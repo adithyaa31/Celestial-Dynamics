@@ -300,7 +300,7 @@ export default function Home() {
   const mx = useMotionValue(-400), my = useMotionValue(-400);
   const sx = useSpring(mx, { stiffness: 200, damping: 26 });
   const sy = useSpring(my, { stiffness: 200, damping: 26 });
-  const { data: summary } = useGetSolarSummary({ query: { refetchInterval: 60000 } });
+  const { data: summary } = useGetSolarSummary({ query: { refetchInterval: 60000, queryKey: ['/api/solar/summary'] } });
 
   useEffect(() => {
     const h = (e: MouseEvent) => { mx.set(e.clientX - 200); my.set(e.clientY - 200); };
